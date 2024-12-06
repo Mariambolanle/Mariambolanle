@@ -1,0 +1,64 @@
+.session {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    /* width: 100vw; */
+    /* background-color: yellow; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.giddy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100px; */
+   
+    /* background-color: blue; */
+}
+
+.Uname {
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.New {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+input, button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+}
