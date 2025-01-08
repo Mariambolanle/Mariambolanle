@@ -239,7 +239,7 @@ function calculateBMI(weight, height){
         healthMessage = "Normal",
    // } else if (bmi < 30) {
       healthMessage = "Overweight";
-    } else {
+    } else {     
         healthMessage = "Obese"
     }
     console.log(calculateBMI(70, 1.75));
